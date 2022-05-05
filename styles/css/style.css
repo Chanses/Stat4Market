@@ -74,6 +74,7 @@
     background-position: right 10px;
   }
 }
+.header .header-primary__nav-phone,
 .header .header-primary__nav a {
   font-family: Lato;
   text-decoration: none;
@@ -83,7 +84,8 @@
   color: #331a2f;
 }
 @media screen and (max-width: 1280px) {
-  .header .header-primary__nav a {
+  .header .header-primary__nav-phone,
+.header .header-primary__nav a {
     font-size: 18px;
   }
 }
@@ -214,6 +216,7 @@
   width: 1610px;
   margin: 0 auto;
   font-family: Lato;
+  font-display: Lato;
   padding: 23px 40px 0 40px;
   overflow-x: hidden;
 }
@@ -543,7 +546,7 @@
 }
 .description .description-img {
   width: 620px;
-  background: url("../../img/Bgstars.jpg") bottom no-repeat;
+  background: url("../../img/Bgstars.webp") bottom no-repeat;
 }
 .description .description-img img {
   width: 560px;
