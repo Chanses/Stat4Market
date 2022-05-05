@@ -1,0 +1,157 @@
+.education {
+  text-align: center;
+  margin: 0 auto;
+}
+.education .education-title {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 23px;
+}
+@media screen and (max-width: 1280px) {
+  .education .education-title {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education .education-title {
+    width: calc(100% - 60px);
+  }
+}
+@media screen and (max-width: 360px) {
+  .education .education-title {
+    min-width: 290px;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 360px) {
+  .education .education-title br {
+    display: none;
+  }
+}
+.education .education-title p {
+  position: relative;
+  display: inline;
+}
+.education .education-title p ::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 6px;
+  border-radius: 6px;
+  background: linear-gradient(264.91deg, #7c4eab 0.73%, #dd51d4 95.85%);
+}
+.education .education-subtitle {
+  width: 846px;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: rgba(51, 26, 47, 0.8);
+  margin: 0 auto;
+  margin-bottom: 85px;
+}
+@media screen and (max-width: 1280px) {
+  .education .education-subtitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education .education-subtitle {
+    width: 684px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .education .education-subtitle {
+    width: calc(100% - 30px);
+    min-width: 330px;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+  }
+}
+.education .education-advantages {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .education .education-advantages {
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education .education-advantages {
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+  }
+}
+.education .education-advantages__item {
+  text-align: left;
+  width: 290px;
+}
+@media screen and (max-width: 1280px) {
+  .education .education-advantages__item {
+    width: 225px;
+  }
+  .education .education-advantages__item-title {
+    font-size: 20px;
+    line-height: 25.6px;
+  }
+  .education .education-advantages__item-subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education .education-advantages__item {
+    min-width: 255px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .education .education-advantages__item {
+    text-align: center;
+  }
+  .education .education-advantages__item-img {
+    margin: 0 auto;
+  }
+}
+.education .education-advantages__item-img {
+  width: 70px;
+  height: 70px;
+  background: #cf51ce;
+  box-shadow: 0px 4px 25px rgba(234, 93, 187, 0.25);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.education .education-advantages__item-img svg {
+  width: 48px;
+  height: 48px;
+}
+.education .education-advantages__item-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #331a2f;
+  margin-bottom: 15px;
+}
+.education .education-advantages__item-subtitle {
+  font-size: 18px;
+  line-height: 160%;
+  color: rgba(51, 26, 47, 0.8);
+}
+
+/*# sourceMappingURL=education.css.map */

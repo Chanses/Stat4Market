@@ -1,0 +1,176 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .header-primary {
+        display: flex;
+        align-items: center;
+        &__logo {
+            img {
+                width: 241px;
+                height: 70px;
+                margin-right: 15px;
+                @media screen and (max-width: 1280px) {
+                    width: 187px;
+                }
+                @media screen and (max-width: 360px) {
+                    width: 140px;
+                }
+            }
+        }
+        &__info {
+            width: 204px;
+            height: 80px;
+            border-left: 1px solid #331a2f80;
+            padding: 12px 0 0 15px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #331a2fe5;
+            @media screen and (max-width: 1280px) {
+                width: 150px;
+                font-size: 10px;
+            }
+            @media screen and (max-width: 360px) {
+                display: none;
+            }
+        }
+        &__nav {
+            display: flex;
+            align-items: center;
+            margin-left: 35px;
+            &-select {
+                select {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    border: none;
+                    outline: none;
+                    padding-right: 20px;
+                    background-image: url("../../img/select-arrow.svg");
+                    background-repeat: no-repeat;
+                    background-position: right 17px;
+                    font-size: 24px;
+                    @media screen and (max-width: 1280px) {
+                        font-size: 18px;
+                        background-position: right 10px;
+                    }
+                }
+                margin-right: 60px;
+            }
+            a {
+                font-family: Lato;
+                text-decoration: none;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 35px;
+                color: #331a2f;
+                @media screen and (max-width: 1280px) {
+                    font-size: 18px;
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            &__nav {
+                display: none;
+            }
+        }
+    }
+    .header-secondary {
+        display: flex;
+        align-items: center;
+        &__contacts {
+            display: flex;
+            align-items: center;
+            margin-right: 91px;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            a {
+                margin-left: 7px;
+                color: #331a2f;
+                text-decoration: none;
+                @media screen and (max-width: 1280px) {
+                    font-size: 18px;
+                }
+            }
+        }
+        &__contacts-img {
+            width: 19px;
+        }
+        &__login {
+            button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 169px;
+                height: 45px;
+                border-radius: 12px;
+                background-color: #cf51ce;
+                border: none;
+                cursor: pointer;
+                svg {
+                    margin-top: 7px;
+                    width: 23px;
+                    height: 23px;
+                }
+                span {
+                    font-size: 23px;
+                    font-weight: 500;
+                    line-height: 35px;
+                    letter-spacing: 0.02em;
+                    color: white;
+                    margin-left: 14px;
+                }
+                @media screen and (max-width: 1280px) {
+                    width: 152px;
+                    height: 43px;
+                    font-size: 18px;
+                }
+                @media screen and (max-width: 360px) {
+                    width: 103px;
+                    height: 36px;
+                    border-radius: 6px;
+                    span {
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 28px;
+                    }
+                    svg {
+                        width: 13px;
+                        height: 13px;
+                    }
+                }
+            }
+            :hover {
+                background-color: #cf95cf;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            &__contacts {
+                display: none;
+            }
+        }
+        &__burger {
+            cursor: pointer;
+            width: 42px;
+            height: 28px;
+            display: none;
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+        }
+    }
+    @media screen and (max-width: 1280px) {
+        height: 62px;
+    }
+    @media screen and (max-width: 360px) {
+        height: 36px;
+        width: 100%;
+    }
+}

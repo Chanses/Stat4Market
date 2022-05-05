@@ -1,0 +1,24 @@
+.background {
+    position: relative;
+    &__ellippse-pink {
+        position: absolute;
+        top: 0;
+        left: 0;
+        @media screen and (max-width: 1750px) {
+            width: 50px;
+            top: 30px;
+            left: -25px;
+        }
+        @media screen and (max-width: 1280px) {
+            display: none;
+        }
+    }
+    &__ellippse-purple {
+        position: absolute;
+        top: 400px;
+        right: 0;
+        @media screen and (max-width: 1750px) {
+            display: none;
+        }
+    }
+}

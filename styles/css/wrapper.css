@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../../fonts/Lato-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+.wrapper {
+  width: 1610px;
+  margin: 0 auto;
+  font-family: Lato;
+  padding: 23px 40px 0 40px;
+  overflow-x: hidden;
+}
+.wrapper a {
+  font-family: Lato;
+}
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 1200px;
+    padding: 30px 40px 0 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 768px;
+    padding: 26px 15px 0 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .wrapper {
+    width: 360px;
+    padding: 26px 15px 0 15px;
+  }
+}
+
+/*# sourceMappingURL=wrapper.css.map */

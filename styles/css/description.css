@@ -1,0 +1,123 @@
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 147px;
+  position: relative;
+}
+.description span {
+  font-family: Lato;
+  color: #cf51ce;
+}
+.description .description-main__title {
+  font-size: 56px;
+  margin-bottom: 26px;
+  width: 880px;
+}
+.description .description-main__price {
+  font-size: 20px;
+  width: 256px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.description .description-main__price .price-count {
+  color: #cf51ce;
+  font-size: 38px;
+  line-height: 29px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.description .description-main__price .price-rub {
+  font-size: 25px;
+  line-height: 25px;
+  color: rgba(51, 26, 47, 0.8);
+  font-weight: 500;
+  margin-left: 10px;
+}
+.description .description-main__price svg {
+  margin-right: 25px;
+}
+@media screen and (max-width: 1280px) {
+  .description .description-main__title {
+    width: 688px;
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .description .description-main__title {
+    width: 202px;
+    font-size: 26px;
+    line-height: 150%;
+  }
+}
+.description .description-main__text {
+  width: 862px;
+  font-size: 25px;
+  color: rgba(51, 26, 47, 0.8);
+}
+.description .description-main__text :nth-child(1n) {
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 1280px) {
+  .description .description-main__text {
+    width: 711px;
+    font-size: 20px;
+  }
+  .description .description-main__text-primary {
+    display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .description .description-main__text-secondary {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .description .description-main__text {
+    width: 482px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .description .description-main__text {
+    font-size: 18px;
+    line-height: 160%;
+    width: 330px;
+  }
+}
+.description .description-img {
+  width: 620px;
+  background: url("../../img/Bgstars.jpg") bottom no-repeat;
+}
+.description .description-img img {
+  width: 560px;
+}
+@media screen and (max-width: 1280px) {
+  .description .description-img {
+    width: 450px;
+    background-size: 100%;
+    background-position: 0 60px;
+  }
+  .description .description-img__title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .description .description-img {
+    background: none;
+    position: absolute;
+    right: -180px;
+    top: 160px;
+    width: 410px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 360px) {
+  .description .description-img {
+    width: 245px;
+    top: -40px;
+    right: -120px;
+  }
+}
+
+/*# sourceMappingURL=description.css.map */
